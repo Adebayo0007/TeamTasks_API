@@ -114,10 +114,4 @@ tests/TeamTaskApi.Tests # xUnit tests
 - [x] Per-team authorization via policy + service checks
 - [x] Hash passwords; never return password fields
 
-## Next Steps (Stretch)
-- Pagination & filtering for tasks
-- Soft-delete, auditing
-- Email invites/acceptance flow
-- Refresh tokens, password reset
-```
 
