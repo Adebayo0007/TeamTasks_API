@@ -1,0 +1,841 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFDF2F8-E69E-4E17-A1E4-3E88D84C2787}|TeamTask_API_Tests\\TeamTask_API_Tests.csproj|c:\\users\\user\\desktop\\teamtasksapi\\teamtasksapi\\teamtask_api_tests\\taskservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFDF2F8-E69E-4E17-A1E4-3E88D84C2787}|TeamTask_API_Tests\\TeamTask_API_Tests.csproj|solutionrelative:teamtask_api_tests\\taskservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFDF2F8-E69E-4E17-A1E4-3E88D84C2787}|TeamTask_API_Tests\\TeamTask_API_Tests.csproj|c:\\users\\user\\desktop\\teamtasksapi\\teamtasksapi\\teamtask_api_tests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFDF2F8-E69E-4E17-A1E4-3E88D84C2787}|TeamTask_API_Tests\\TeamTask_API_Tests.csproj|solutionrelative:teamtask_api_tests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|c:\\users\\user\\desktop\\teamtasksapi\\teamtasksapi\\teamtask_api\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|c:\\users\\user\\desktop\\teamtasksapi\\teamtasksapi\\teamtask_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\security\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\security\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\security\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\security\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\repositories\\teamuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\repositories\\teamuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\repositories\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\repositories\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\policies\\teammemberrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\policies\\teammemberrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\policies\\teammemberhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\policies\\teammemberhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\services\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\services\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\repositories\\iteamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\repositories\\iteamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\infrastructure\\policies\\policies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\infrastructure\\policies\\policies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\repositories\\iteamuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\repositories\\iteamuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\enums\\teamrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\enums\\teamrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\entities\\teamuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\entities\\teamuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFDF2F8-E69E-4E17-A1E4-3E88D84C2787}|TeamTask_API_Tests\\TeamTask_API_Tests.csproj|c:\\users\\user\\desktop\\teamtasksapi\\teamtasksapi\\teamtask_api_tests\\teamtask_api_tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ADFDF2F8-E69E-4E17-A1E4-3E88D84C2787}|TeamTask_API_Tests\\TeamTask_API_Tests.csproj|solutionrelative:teamtask_api_tests\\teamtask_api_tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\dtos\\tasks\\taskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\dtos\\tasks\\taskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\dtos\\common\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\dtos\\common\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\dtos\\tasks\\statuspatchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\dtos\\tasks\\statuspatchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\teamtask_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\teamtask_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\dtos\\tasks\\updatetaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\dtos\\tasks\\updatetaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\dtos\\tasks\\createtaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\dtos\\tasks\\createtaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\teamtask_api\\dtos\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:teamtask_api\\dtos\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Migrations\\20250823211805_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BDC6A-6C5F-4D1A-926D-66D4B069501B}|TeamTask_API\\TeamTask_API.csproj|solutionrelative:TeamTask_API\\Migrations\\20250823211805_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\README.md",
+              "RelativeDocumentMoniker": "TeamTask_API\\README.md",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\README.md",
+              "RelativeToolTip": "TeamTask_API\\README.md",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAB8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-08-24T00:01:10.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Services\\TaskService.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Services\\TaskService.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAcwAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:23:01.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAASwBkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:22:29.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeamService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Services\\TeamService.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Services\\TeamService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Services\\TeamService.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Services\\TeamService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwBwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:23:18.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "TeamTask_API\\Mappings\\MappingProfile.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:24:19.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API_Tests\\AuthServiceTests.cs",
+              "RelativeDocumentMoniker": "TeamTask_API_Tests\\AuthServiceTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API_Tests\\AuthServiceTests.cs",
+              "RelativeToolTip": "TeamTask_API_Tests\\AuthServiceTests.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T23:34:40.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API_Tests\\TaskServiceTests.cs",
+              "RelativeDocumentMoniker": "TeamTask_API_Tests\\TaskServiceTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API_Tests\\TaskServiceTests.cs",
+              "RelativeToolTip": "TeamTask_API_Tests\\TaskServiceTests.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T23:40:58.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JwtTokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Security\\JwtTokenHelper.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Security\\JwtTokenHelper.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Security\\JwtTokenHelper.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Security\\JwtTokenHelper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:22:19.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Security\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Security\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Security\\JwtSettings.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Security\\JwtSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:22:13.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:21:59.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Program.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Program.cs",
+              "RelativeToolTip": "TeamTask_API\\Program.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAUwGcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:06:29.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TeamUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Repositories\\TeamUserRepository.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Repositories\\TeamUserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Repositories\\TeamUserRepository.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Repositories\\TeamUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:21:48.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TeamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Repositories\\TeamRepository.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Repositories\\TeamRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Repositories\\TeamRepository.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Repositories\\TeamRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:21:36.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Repositories\\TaskRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:21:11.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TeamMemberRequirement.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Policies\\TeamMemberRequirement.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Policies\\TeamMemberRequirement.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Policies\\TeamMemberRequirement.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Policies\\TeamMemberRequirement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:21:03.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TeamMemberHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Policies\\TeamMemberHandler.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Policies\\TeamMemberHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Policies\\TeamMemberHandler.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Policies\\TeamMemberHandler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:20:54.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ITeamService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Services\\ITeamService.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Services\\ITeamService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Services\\ITeamService.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Services\\ITeamService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:02:24.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Services\\ITaskService.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Services\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Services\\ITaskService.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Services\\ITaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:02:14.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Services\\IAuthService.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Services\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:01:59.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:01:50.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ITeamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Repositories\\ITeamRepository.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Repositories\\ITeamRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Repositories\\ITeamRepository.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Repositories\\ITeamRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:01:36.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Policies.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Policies\\Policies.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Infrastructure\\Policies\\Policies.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Infrastructure\\Policies\\Policies.cs",
+              "RelativeToolTip": "TeamTask_API\\Infrastructure\\Policies\\Policies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:20:27.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITeamUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Repositories\\ITeamUserRepository.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Repositories\\ITeamUserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Repositories\\ITeamUserRepository.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Repositories\\ITeamUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:01:43.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Repositories\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Repositories\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Repositories\\ITaskRepository.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Repositories\\ITaskRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:01:29.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TeamRole.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Enums\\TeamRole.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Enums\\TeamRole.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Enums\\TeamRole.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Enums\\TeamRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:01:23.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Enums\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Enums\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Enums\\TaskStatus.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Enums\\TaskStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:01:18.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:01:05.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TeamUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Entities\\TeamUser.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Entities\\TeamUser.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Entities\\TeamUser.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Entities\\TeamUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:00:54.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Entities\\Team.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Entities\\Team.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Entities\\Team.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Entities\\Team.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:00:47.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Domain\\Entities\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Domain\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "TeamTask_API\\Domain\\Entities\\TaskItem.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA0wAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:00:37.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TeamTask_API\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwCcAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:00:18.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TeamTask_API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:06:33.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Controllers\\TeamsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Controllers\\TeamsController.cs",
+              "RelativeToolTip": "TeamTask_API\\Controllers\\TeamsController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwBcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:06:50.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TeamTask_API\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwBIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:06:59.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TeamTask_API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:07:10.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TeamTask_API_Tests",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API_Tests\\TeamTask_API_Tests.csproj",
+              "RelativeDocumentMoniker": "TeamTask_API_Tests\\TeamTask_API_Tests.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API_Tests\\TeamTask_API_Tests.csproj",
+              "RelativeToolTip": "TeamTask_API_Tests\\TeamTask_API_Tests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-23T23:37:34.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\appsettings.json",
+              "RelativeDocumentMoniker": "TeamTask_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\appsettings.json",
+              "RelativeToolTip": "TeamTask_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-23T21:08:42.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TeamTask_API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\appsettings.Development.json",
+              "RelativeToolTip": "TeamTask_API\\appsettings.Development.json",
+              "ViewState": "AQIAAAIAAAAAAAAAAABRwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-23T21:08:51.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TaskResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Tasks\\TaskResponse.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\DTOs\\Tasks\\TaskResponse.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Tasks\\TaskResponse.cs",
+              "RelativeToolTip": "TeamTask_API\\DTOs\\Tasks\\TaskResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:05:22.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "TeamTask_API\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:27:32.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Common\\UserResponse.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\DTOs\\Common\\UserResponse.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Common\\UserResponse.cs",
+              "RelativeToolTip": "TeamTask_API\\DTOs\\Common\\UserResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:04:48.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "StatusPatchRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Tasks\\StatusPatchRequest.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\DTOs\\Tasks\\StatusPatchRequest.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Tasks\\StatusPatchRequest.cs",
+              "RelativeToolTip": "TeamTask_API\\DTOs\\Tasks\\StatusPatchRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:05:15.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250823211805_init.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Migrations\\20250823211805_init.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\Migrations\\20250823211805_init.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\Migrations\\20250823211805_init.cs",
+              "RelativeToolTip": "TeamTask_API\\Migrations\\20250823211805_init.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:18:05.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TeamTask_API.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\TeamTask_API.csproj",
+              "RelativeDocumentMoniker": "TeamTask_API\\TeamTask_API.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\TeamTask_API.csproj",
+              "RelativeToolTip": "TeamTask_API\\TeamTask_API.csproj",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-23T21:14:47.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateTaskRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Tasks\\UpdateTaskRequest.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\DTOs\\Tasks\\UpdateTaskRequest.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Tasks\\UpdateTaskRequest.cs",
+              "RelativeToolTip": "TeamTask_API\\DTOs\\Tasks\\UpdateTaskRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:05:30.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CreateTaskRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Tasks\\CreateTaskRequest.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\DTOs\\Tasks\\CreateTaskRequest.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Tasks\\CreateTaskRequest.cs",
+              "RelativeToolTip": "TeamTask_API\\DTOs\\Tasks\\CreateTaskRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:05:07.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\DTOs\\Auth\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeToolTip": "TeamTask_API\\DTOs\\Auth\\RegisterRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:04:36.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\DTOs\\Auth\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "TeamTask_API\\DTOs\\Auth\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:04:31.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Auth\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "TeamTask_API\\DTOs\\Auth\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TeamTasksAPI\\TeamTasksAPI\\TeamTask_API\\DTOs\\Auth\\AuthResponse.cs",
+              "RelativeToolTip": "TeamTask_API\\DTOs\\Auth\\AuthResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:03:54.671Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

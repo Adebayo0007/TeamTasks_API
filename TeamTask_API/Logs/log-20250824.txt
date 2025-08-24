@@ -1,0 +1,33 @@
+2025-08-24 00:05:22.609 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-24 00:05:24.908 +01:00 [INF] Now listening on: https://localhost:7168
+2025-08-24 00:05:24.915 +01:00 [INF] Now listening on: http://localhost:5007
+2025-08-24 00:05:24.923 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-24 00:05:24.941 +01:00 [INF] Hosting environment: Development
+2025-08-24 00:05:25.484 +01:00 [INF] Content root path: C:\Users\user\Desktop\TeamTasksAPI\TeamTasksAPI\TeamTask_API
+2025-08-24 00:05:33.549 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/index.html - null null
+2025-08-24 00:05:34.941 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/index.html - 200 null text/html;charset=utf-8 1403.5886ms
+2025-08-24 00:05:35.623 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-24 00:05:35.623 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/_vs/browserLink - null null
+2025-08-24 00:05:35.647 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 24.4077ms
+2025-08-24 00:05:35.806 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 182.8767ms
+2025-08-24 00:05:36.020 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - null null
+2025-08-24 00:05:36.695 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 674.3087ms
+2025-08-24 00:06:17.703 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7168/auth/login - application/json 54
+2025-08-24 00:06:17.733 +01:00 [INF] CORS policy execution successful.
+2025-08-24 00:06:17.918 +01:00 [INF] Executing endpoint 'TeamTask_API.Controllers.AuthController.Login (TeamTask_API)'
+2025-08-24 00:06:17.988 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TeamTask_API.DTOs.Auth.AuthResponse]] Login(TeamTask_API.DTOs.Auth.LoginRequest) on controller TeamTask_API.Controllers.AuthController (TeamTask_API).
+2025-08-24 00:06:25.740 +01:00 [INF] Executed DbCommand (109ms) [Parameters=[@__email_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-08-24 00:06:26.637 +01:00 [INF] Executing OkObjectResult, writing value of type 'TeamTask_API.DTOs.Auth.AuthResponse'.
+2025-08-24 00:06:26.680 +01:00 [INF] Executed action TeamTask_API.Controllers.AuthController.Login (TeamTask_API) in 8667.7749ms
+2025-08-24 00:06:26.686 +01:00 [INF] Executed endpoint 'TeamTask_API.Controllers.AuthController.Login (TeamTask_API)'
+2025-08-24 00:06:26.701 +01:00 [INF] HTTP POST /auth/login responded 200 in 8972.9550 ms
+2025-08-24 00:06:26.725 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7168/auth/login - 200 null application/json; charset=utf-8 9022.8515ms
+2025-08-24 00:06:39.869 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/users/me - null null
+2025-08-24 00:06:39.904 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-08-24 00:06:39.919 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-08-24 00:06:39.922 +01:00 [INF] HTTP GET /users/me responded 401 in 41.8626 ms
+2025-08-24 00:06:39.928 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/users/me - 401 0 null 59.5172ms

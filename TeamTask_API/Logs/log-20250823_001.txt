@@ -1,0 +1,107 @@
+2025-08-23 22:18:27.489 +01:00 [INF] Executed DbCommand (409ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [TeamTaskDB];
+2025-08-23 22:18:27.665 +01:00 [INF] Executed DbCommand (99ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [TeamTaskDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-08-23 22:18:27.695 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-08-23 22:18:27.807 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-08-23 22:18:27.809 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-08-23 22:18:27.831 +01:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-08-23 22:18:27.837 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-08-23 22:18:27.858 +01:00 [INF] Applying migration '20250823211805_init'.
+2025-08-23 22:18:27.948 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Teams] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(200) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    CONSTRAINT [PK_Teams] PRIMARY KEY ([Id])
+);
+2025-08-23 22:18:27.952 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] uniqueidentifier NOT NULL,
+    [Email] nvarchar(200) NOT NULL,
+    [FullName] nvarchar(200) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+2025-08-23 22:18:27.957 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Tasks] (
+    [Id] uniqueidentifier NOT NULL,
+    [Title] nvarchar(200) NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [DueDate] datetime2 NULL,
+    [Status] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [TeamId] uniqueidentifier NOT NULL,
+    [CreatedByUserId] uniqueidentifier NOT NULL,
+    [AssignedToUserId] uniqueidentifier NULL,
+    CONSTRAINT [PK_Tasks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Tasks_Teams_TeamId] FOREIGN KEY ([TeamId]) REFERENCES [Teams] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Tasks_Users_AssignedToUserId] FOREIGN KEY ([AssignedToUserId]) REFERENCES [Users] ([Id]) ON DELETE SET NULL,
+    CONSTRAINT [FK_Tasks_Users_CreatedByUserId] FOREIGN KEY ([CreatedByUserId]) REFERENCES [Users] ([Id]) ON DELETE NO ACTION
+);
+2025-08-23 22:18:28.312 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TeamUsers] (
+    [TeamId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [Role] int NOT NULL,
+    [JoinedAt] datetime2 NOT NULL,
+    CONSTRAINT [PK_TeamUsers] PRIMARY KEY ([TeamId], [UserId]),
+    CONSTRAINT [FK_TeamUsers_Teams_TeamId] FOREIGN KEY ([TeamId]) REFERENCES [Teams] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TeamUsers_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2025-08-23 22:18:28.314 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Tasks_AssignedToUserId] ON [Tasks] ([AssignedToUserId]);
+2025-08-23 22:18:28.315 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Tasks_CreatedByUserId] ON [Tasks] ([CreatedByUserId]);
+2025-08-23 22:18:28.316 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Tasks_TeamId] ON [Tasks] ([TeamId]);
+2025-08-23 22:18:28.318 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TeamUsers_UserId] ON [TeamUsers] ([UserId]);
+2025-08-23 22:18:28.321 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Users_Email] ON [Users] ([Email]);
+2025-08-23 22:18:28.330 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250823211805_init', N'8.0.7');
+2025-08-23 23:04:44.836 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-23 23:04:45.762 +01:00 [INF] Now listening on: https://localhost:7168
+2025-08-23 23:04:45.765 +01:00 [INF] Now listening on: http://localhost:5007
+2025-08-23 23:04:45.770 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-23 23:04:45.772 +01:00 [INF] Hosting environment: Development
+2025-08-23 23:04:45.775 +01:00 [INF] Content root path: C:\Users\user\Desktop\TeamTasksAPI\TeamTasksAPI\TeamTask_API
+2025-08-23 23:04:52.643 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger - null null
+2025-08-23 23:04:53.053 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger - 301 0 null 421.5373ms
+2025-08-23 23:04:53.065 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/index.html - null null
+2025-08-23 23:04:53.276 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/index.html - 200 null text/html;charset=utf-8 211.3013ms
+2025-08-23 23:04:53.284 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/swagger-ui-bundle.js - null null
+2025-08-23 23:04:53.284 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/swagger-ui.css - null null
+2025-08-23 23:04:53.284 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/swagger-ui-standalone-preset.js - null null
+2025-08-23 23:04:53.289 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-23 23:04:53.353 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 64.0431ms
+2025-08-23 23:04:53.401 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-08-23 23:04:53.510 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-08-23 23:04:53.402 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-08-23 23:04:53.520 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/swagger-ui.css - 200 152034 text/css 236.3277ms
+2025-08-23 23:04:53.545 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 261.4845ms
+2025-08-23 23:04:53.548 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 263.3651ms
+2025-08-23 23:04:53.917 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/_vs/browserLink - null null
+2025-08-23 23:04:54.039 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.0777ms
+2025-08-23 23:04:54.151 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/favicon-32x32.png - null null
+2025-08-23 23:04:54.161 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-08-23 23:04:54.166 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/favicon-32x32.png - 200 628 image/png 14.9809ms
+2025-08-23 23:04:54.284 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - null null
+2025-08-23 23:04:55.023 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 738.8733ms
